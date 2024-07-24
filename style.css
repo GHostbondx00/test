@@ -1,0 +1,78 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #f8f9fa, #e2e2e2);
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    cursor: url('cur220.cur'), auto; /* Custom cursor */
+}
+
+header {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    color: #333;
+}
+
+.dish-info {
+    margin-bottom: 40px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: auto;
+    position: relative;
+    padding-top: 20px;
+}
+
+.footer-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
